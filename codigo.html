@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Buenas Prácticas de Programación</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Buenas Prácticas de Programación</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="normas.html">Normas</a>
+      <a href="modelos.html">Modelos</a>
+      <a href="estandares.html">Estándares</a>
+      <a href="pruebas.html">Pruebas</a>
+      <a href="conclusiones.html">Conclusiones</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Ejemplo de Código Limpio</h2>
+    <pre><code>
+function calcularPromedio(notas) {
+  if (!notas.length) return 0;
+  const suma = notas.reduce((a, b) => a + b, 0);
+  return suma / notas.length;
+}
+    </code></pre>
+    <p>El código limpio es legible, reutilizable y fácil de mantener.</p>
+  </main>
+  <footer><p>ACA Final - Código</p></footer>
+</body>
+</html>
